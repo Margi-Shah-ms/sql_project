@@ -1,4 +1,4 @@
-Click here for the video: 
+Click here for the video: https://drive.google.com/file/d/1fqX2Uf-TV_sO4baMlAWd0v3Kr-Q-SDpR/view?usp=sharing
 
 # SQL University Database Project
 
