@@ -220,7 +220,7 @@ COUNT(StudentID) OVER (ORDER BY EnrollmentDate, EnrollmentID) AS runningtotal FR
 -- Q16. Label students as 'Senior' or 'Junior' based on their year of enrollment.
 SELECT StudentID, FirstName, LastName, EnrollmentDate,
        CASE 
-           WHEN EnrollmentDate < DATE_SUB(CURRENT_DATE(), INTERVAL 4 YEAR) THEN 'Senior'
+           WHEN EnrollmentDate < CURRENT_DATE - INTERVAL '4 years' THEN 'Senior'
            ELSE 'Junior'
        END AS StudentStatus
 FROM Students;
